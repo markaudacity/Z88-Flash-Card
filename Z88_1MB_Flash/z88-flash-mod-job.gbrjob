@@ -3,14 +3,14 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(7.0.0)"
+      "Version": "8.0.7"
     },
-    "CreationDate": "2023-03-25T14:20:40+00:00"
+    "CreationDate": "2025-01-02T16:49:33-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "connector",
-      "GUID": "636f6e6e-6563-4746-9f72-2e6b69636164",
+      "Name": "z88-flash-mod",
+      "GUID": "7a38382d-666c-4617-9368-2d6d6f642e6b",
       "Revision": "rev?"
     },
     "Size": {
@@ -41,57 +41,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "connector-F_Cu.gbr",
+      "Path": "z88-flash-mod-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "connector-In1_Cu.gbr",
+      "Path": "z88-flash-mod-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "connector-In2_Cu.gbr",
+      "Path": "z88-flash-mod-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "connector-B_Cu.gbr",
+      "Path": "z88-flash-mod-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "connector-F_Paste.gbr",
+      "Path": "z88-flash-mod-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "connector-B_Paste.gbr",
+      "Path": "z88-flash-mod-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "connector-F_Silkscreen.gbr",
+      "Path": "z88-flash-mod-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "connector-B_Silkscreen.gbr",
+      "Path": "z88-flash-mod-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "connector-F_Mask.gbr",
+      "Path": "z88-flash-mod-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "connector-B_Mask.gbr",
+      "Path": "z88-flash-mod-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "connector-Edge_Cuts.gbr",
+      "Path": "z88-flash-mod-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
