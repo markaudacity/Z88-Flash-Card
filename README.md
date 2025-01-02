@@ -6,7 +6,7 @@ This is an updated version using a currently-available (as of early 2025) flash 
 This work is based upon the Z88 connector design shared by XavSnap at [SinclairZXWorld Z88 Forum](https://sinclairzxworld.com/viewtopic.php?f=24&t=4431) - Thank you XavSnap!
 
 # Current Status
-This commit is the untested, modified version of the v3.0 card. It should work as-is, as the circuit is unchanged with the exception of the pinout of the new part, but I have not etched a board or built a prototype yet, so this should be considered alpha hardware that may break your Z88, sleep with your wife, burn down your house, and all kinds of mean, ugly, nasty things.
+This commit is the untested, modified version of the v3.0 card. It should work as-is, as the circuit is unchanged with the exception of the pinout of the new part, but I have not etched a board or built a prototype yet, so this should be considered alpha hardware that may break your Z88, sleep with your wife, burn down your house, and all kinds of mean, ugly, nasty things besides.
 
 # What's Been Done
 - schematic updated for currently-available TSOP-48 8Mbit flash chip
