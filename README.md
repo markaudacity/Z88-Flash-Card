@@ -1,6 +1,6 @@
 # z88-flash-mod
 
-![a view of the PCB layout routing, showing all layers](images/PCB-Routing-2025.png)
+![a view of the PCB layout routing, showing all layers](images/PCB-Routing-2025.png | width=480)  
 ![a screenshot of a 3D render of the populated board](images/PCB-3D-render-2025.png)
 An open-source expansion card for the Cambridge Z88 which can be configured as 512KB RAM, 1MB RAM or 1MB Flash. 
 This is an updated version using a currently-available (as of early 2025) flash chip, as neither the original part used (an AM29F080) nor a pin-compatible part are available new. Originally created by Jim Connor, with groundwork by XavSnap. Please see upstream for notes on the original design.
