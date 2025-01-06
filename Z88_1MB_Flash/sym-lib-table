@@ -3,4 +3,5 @@
   (lib (name "conn_z88")(type "Legacy")(uri "${KIPRJMOD}/conn_z88.lib")(options "")(descr ""))
   (lib (name "nec_rom")(type "Legacy")(uri "${KIPRJMOD}/nec_rom.lib")(options "")(descr ""))
   (lib (name "am29f800B")(type "KiCad")(uri "${KIPRJMOD}/am29f800B.kicad_sym")(options "")(descr ""))
+  (lib (name "z88-flash-mod-rescue")(type "KiCad")(uri "${KIPRJMOD}/z88-flash-mod-rescue.kicad_sym")(options "")(descr ""))
 )
