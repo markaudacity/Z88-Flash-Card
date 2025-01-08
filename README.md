@@ -2,7 +2,7 @@
 
 <img src="img/3D_render.png" height="400" />&emsp;<img src="img/PCB_layout.png" height="400" /><br />
 An open-source expansion card for the Cambridge Z88 which can be configured as 512KB RAM, 1MB RAM or 1MB Flash. 
-This is an updated version using a currently-available (as of early 2025) flash chip, as neither the original part used (an AM29F080) nor a pin-compatible part are available new. Originally created by Jim Connor, with groundwork by XavSnap. Please see upstream for notes on the original design.
+This is an updated version using a currently-available (as of early 2025) flash chip, as neither the original part used (an AM29F080) nor a pin-compatible part are available new. Originally created by Jim Conner, with groundwork by XavSnap. Please see upstream for notes on the original design.
 
 This work is based upon the Z88 connector design shared by XavSnap at [SinclairZXWorld Z88 Forum](https://sinclairzxworld.com/viewtopic.php?f=24&t=4431) - Thank you XavSnap!
 
