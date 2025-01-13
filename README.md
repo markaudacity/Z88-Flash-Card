@@ -1,4 +1,4 @@
-# Z88 Flash Card
+# Z88 Flash/RAM Card
 
 <img src="img/3D_render.png" height="400" />&emsp;<img src="img/PCB_layout.png" height="400" /><br />
 An open-source expansion card for the Cambridge Z88 which can be configured as 512KB RAM, 1MB RAM or 1MB Flash. 
