@@ -95,7 +95,7 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 132.969 68.199)
+		(grid_origin 115.697 62.992)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -1311,7 +1311,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP?16*")
-		(path "/6b3b3646-27be-4731-b09d-8d1de19d93b7")
+		(path "/e23baf19-1e98-46db-bf71-4d89e5186f1a")
 		(sheetname "Root")
 		(sheetfile "z88-flash-mod.kicad_sch")
 		(attr smd)
@@ -2569,9 +2569,9 @@
 		(at 135.509 107.935 90)
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
-		(property "Reference" "512K"
+		(property "Reference" "JP1"
 			(at 0.015 -1.875 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c95d68d9-6452-41b1-9972-4823237d8fb1")
 			(effects
 				(font
@@ -2580,9 +2580,9 @@
 				)
 			)
 		)
-		(property "Value" "512KB RAM"
+		(property "Value" "512k"
 			(at 0 1.9 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "035e7232-651e-475a-946e-f1fd037a2b84")
 			(effects
 				(font
@@ -5264,226 +5264,6 @@
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-000061868977")
 	)
-	(gr_line
-		(start 116.586 76.2)
-		(end 117.094 76.2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-00006186896b")
-	)
-	(gr_line
-		(start 116.586 76.708)
-		(end 117.094 76.708)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-00006186896c")
-	)
-	(gr_line
-		(start 116.586 74.422)
-		(end 116.586 75.692)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-00006186896d")
-	)
-	(gr_line
-		(start 116.586 76.454)
-		(end 117.094 76.454)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-00006186896e")
-	)
-	(gr_line
-		(start 116.078 74.422)
-		(end 116.586 74.422)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-00006186896f")
-	)
-	(gr_line
-		(start 116.586 76.454)
-		(end 116.586 76.708)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000061868970")
-	)
-	(gr_line
-		(start 117.126 73.279)
-		(end 116.11 74.295)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000061868971")
-	)
-	(gr_line
-		(start 116.586 75.946)
-		(end 117.094 75.946)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000061868972")
-	)
-	(gr_line
-		(start 117.094 76.454)
-		(end 116.586 76.454)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000061868973")
-	)
-	(gr_line
-		(start 116.586 75.946)
-		(end 116.586 76.2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000061868974")
-	)
-	(gr_line
-		(start 116.586 75.692)
-		(end 117.094 75.692)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000061868975")
-	)
-	(gr_line
-		(start 118.11 74.422)
-		(end 117.602 74.422)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000061868976")
-	)
-	(gr_line
-		(start 117.602 76.2)
-		(end 117.094 76.2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000061868978")
-	)
-	(gr_line
-		(start 117.602 75.946)
-		(end 117.094 75.946)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000061868979")
-	)
-	(gr_line
-		(start 117.602 74.422)
-		(end 117.602 75.692)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-00006186897a")
-	)
-	(gr_line
-		(start 117.602 76.454)
-		(end 117.094 76.454)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-00006186897b")
-	)
-	(gr_line
-		(start 117.602 75.692)
-		(end 117.094 75.692)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-00006186897c")
-	)
-	(gr_line
-		(start 117.126 73.279)
-		(end 118.142 74.295)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-00006186897d")
-	)
-	(gr_line
-		(start 117.602 76.708)
-		(end 117.094 76.708)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-00006186897e")
-	)
-	(gr_line
-		(start 117.602 76.454)
-		(end 117.602 76.708)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-00006186897f")
-	)
-	(gr_line
-		(start 117.602 75.946)
-		(end 117.602 76.2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000061868980")
-	)
-	(gr_line
-		(start 166.211 86.741)
-		(end 166.243 63.246)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "14c463d7-9038-4f75-b6ca-33510c9a0acf")
-	)
 	(gr_circle
 		(center 147.828 76.2)
 		(end 148.828 76.2)
@@ -5494,16 +5274,6 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "18211c3c-8928-4b8b-94b3-8ad482d78a7d")
-	)
-	(gr_line
-		(start 115.665 111.141)
-		(end 115.665 86.741)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4d36cc65-5b65-4eaf-997c-0818c99a3cf7")
 	)
 	(gr_line
 		(start 115.697 63.246)
@@ -5539,7 +5309,7 @@
 	)
 	(gr_line
 		(start 120.015 115.459)
-		(end 115.665 111.141)
+		(end 115.697 111.125)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -5548,7 +5318,7 @@
 		(uuid "b5cf78ad-9508-4817-87b3-db9a685eb34f")
 	)
 	(gr_line
-		(start 166.211 111.141)
+		(start 166.243 111.125)
 		(end 161.893 115.459)
 		(stroke
 			(width 0.05)
@@ -5599,24 +5369,24 @@
 		(uuid "e2285a12-114e-403e-8305-9d7cbc8b8e72")
 	)
 	(gr_line
-		(start 166.211 86.741)
-		(end 166.211 111.141)
+		(start 115.697 63.246)
+		(end 115.697 111.125)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ebc47033-1446-4442-a0ba-c4845b1a0a77")
+		(uuid "f4ce14db-c764-40b7-adf3-6742f4177834")
 	)
 	(gr_line
-		(start 115.665 86.741)
-		(end 115.697 63.246)
+		(start 166.243 63.246)
+		(end 166.243 111.125)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "f4be8b46-387c-405c-8431-3707137c51d0")
+		(uuid "f71a504e-b605-48db-accf-947fc7d1b517")
 	)
 	(gr_text "JimConner 2023-03/markaudacity 2024-01 v3.0"
 		(at 140.716 64.516 0)

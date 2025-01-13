@@ -5,10 +5,10 @@
 	(uuid "5fc6f147-5006-499b-840e-da123d0e24ea")
 	(paper "A3")
 	(title_block
-		(title "Z88- ROM Expension")
-		(date "2023-02-28")
-		(rev "1.0")
-		(company "JimConner")
+		(title "Z88 Flash/RAM Card")
+		(date "2025-01-13")
+		(rev "1.5")
+		(company "Jim Conner/markaudacity")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS139"
@@ -6630,102 +6630,6 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "power:VCC"
 			(power)
 			(pin_names
@@ -6888,12 +6792,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d39b609-ecb1-4269-abdb-4f99cd3fa0d8")
-	)
-	(junction
-		(at 172.72 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad31a381-d47d-4ccd-b0a9-32d721a76709")
 	)
 	(junction
 		(at 179.705 121.92)
@@ -8125,16 +8023,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 121.92) (xy 179.705 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3911175-cb58-4ba7-ade5-f72e92458e6d")
-	)
-	(wire
-		(pts
 			(xy 87.63 209.55) (xy 96.52 209.55)
 		)
 		(stroke
@@ -8342,6 +8230,16 @@
 			(type default)
 		)
 		(uuid "c9e209a3-e5af-400e-9489-d12266828022")
+	)
+	(wire
+		(pts
+			(xy 172.72 121.92) (xy 179.705 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf41e477-b66a-4d09-bc13-36066cae8b92")
 	)
 	(polyline
 		(pts
@@ -10161,7 +10059,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 179.705 121.92 180)
+		(at 172.72 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10169,7 +10067,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006184b507")
 		(property "Reference" "#PWR0104"
-			(at 179.705 118.11 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,7 +10076,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 179.324 125.1712 90)
+			(at 172.339 125.1712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10187,7 +10085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.705 121.92 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +10094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.705 121.92 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,7 +10103,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.705 121.92 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10220,137 +10118,6 @@
 			(project "connector"
 				(path "/5fc6f147-5006-499b-840e-da123d0e24ea"
 					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 172.085 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006184cb30")
-		(property "Reference" "#FLG0101"
-			(at 170.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 168.8338 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.085 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.085 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.085 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b37dde90-c685-47cb-a03a-4eef36cb4d60")
-		)
-		(instances
-			(project "connector"
-				(path "/5fc6f147-5006-499b-840e-da123d0e24ea"
-					(reference "#FLG0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 172.72 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006184d31e")
-		(property "Reference" "#FLG0102"
-			(at 172.72 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 172.72 104.8258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eaaa6a53-1931-4ab7-b0c9-b306c42dadbb")
-		)
-		(instances
-			(project "connector"
-				(path "/5fc6f147-5006-499b-840e-da123d0e24ea"
-					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
